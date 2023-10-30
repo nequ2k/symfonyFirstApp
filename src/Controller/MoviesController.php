@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class MoviesController extends AbstractController
 {
-    #[Route('/movies/', name: 'app_movies', methods: ['GET', 'HEAD'])]
+    #[Route('/movies/', name: 'app_movies')]
     public function index(): Response
     {
         $movies = ['Avengers: Endgame', 'Inception', 'Loki', 'Black Widow'];
