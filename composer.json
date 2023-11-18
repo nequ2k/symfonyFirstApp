@@ -12,6 +12,7 @@
         "doctrine/orm": "^2.16",
         "laminas/laminas-code": "~4.11.x-dev",
         "sensio/framework-extra-bundle": "^6.2",
+        "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
         "symfony/flex": "^2",
@@ -20,6 +21,7 @@
         "symfony/twig-bundle": "6.3.*",
         "symfony/webpack-encore-bundle": "^2.1",
         "symfony/yaml": "6.3.*",
+        "twbs/bootstrap": "^5.3",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
     },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "640f66870bddd23eec229fb5d40a74f0",
+    "content-hash": "dfd4736652538c6e31e9096ea0eed829",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1742,16 +1742,16 @@
         },
         {
             "name": "symfony/asset",
-            "version": "v6.3.0",
+            "version": "v6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/asset.git",
-                "reference": "b77a4cc8e266b7e0db688de740f9ee7253aa411c"
+                "reference": "b2382a403f2111836301623d89e9af3d84989525"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/asset/zipball/b77a4cc8e266b7e0db688de740f9ee7253aa411c",
-                "reference": "b77a4cc8e266b7e0db688de740f9ee7253aa411c",
+                "url": "https://api.github.com/repos/symfony/asset/zipball/b2382a403f2111836301623d89e9af3d84989525",
+                "reference": "b2382a403f2111836301623d89e9af3d84989525",
                 "shasum": ""
             },
             "require": {
@@ -1791,7 +1791,7 @@
             "description": "Manages URL generation and versioning of web assets such as CSS stylesheets, JavaScript files and image files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/asset/tree/v6.3.0"
+                "source": "https://github.com/symfony/asset/tree/v6.3.8"
             },
             "funding": [
                 {
@@ -1807,7 +1807,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-21T14:41:17+00:00"
+            "time": "2023-10-31T08:07:48+00:00"
         },
         {
             "name": "symfony/cache",
@@ -4525,6 +4525,56 @@
                 }
             ],
             "time": "2023-10-28T23:31:00+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "344e912d04b5b6a04482113eff20ab416ff01048"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/344e912d04b5b6a04482113eff20ab416ff01048",
+                "reference": "344e912d04b5b6a04482113eff20ab416ff01048",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.2"
+            },
+            "time": "2023-09-14T14:19:27+00:00"
         },
         {
             "name": "twig/extra-bundle",
