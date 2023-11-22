@@ -14,9 +14,11 @@ class MoviesController extends AbstractController
 {
 
     private $em;
-    public function __construct(EntityManagerInterface $em)
+
+    private $movieRepository;
+    public function __construct(MovieRepository $movieRepository)
     {
-        $this->em = $em;
+        $this->movieRepository = $movieRepository;
     }
 
     #[Route('/movies', name: 'app_movies')]
@@ -28,8 +30,11 @@ class MoviesController extends AbstractController
         // findOneBy() = SELECT * FROM movies WHERE id = 6 AND title = 'The Dark Knight' ORDER BY id DESC;
         //SELECT COUNT(*) WHERE id = 5
 
+        $movies = $this->movieRepository->findAll();
 
-        return $this->render('index.html.twig');
+        return $this->render('movies/index.html.twig', [
+            'movies' => $movies
+        ]);
     }
 
 
